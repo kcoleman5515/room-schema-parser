@@ -1,5 +1,6 @@
 plugins {
-    id 'application'
+    id 'java'
+//    id 'application'
 }
 java {
     toolchain {
@@ -27,6 +28,7 @@ test {
     useJUnitPlatform()
 }
 
+/*
 ext {
     javaMainClass = 'edu.cnm.deepdive.Parser'
 }
@@ -41,4 +43,4 @@ jar {
             'Main-Class': javaMainClass
         )
     }
-}
+}*/
